@@ -1,0 +1,5 @@
+user = container26
+password = 1F(450307)
+dbname = BD26
+hosts = 192.168.102.100
+query = SELECT dominios AS virtual FROM USERSDOMINIOS WHERE dominios='%s'

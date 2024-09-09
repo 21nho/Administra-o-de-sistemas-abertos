@@ -1,0 +1,5 @@
+driver = mysql
+connect = host=192.168.102.100 dbname=BD26 user=container26 password=1F(450307)
+default_pass_scheme = PLAIN
+password_query = SELECT email as user, senha as password FROM USERS WHERE email='%u';
+# ao inves de USERS er ftpusers
