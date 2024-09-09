@@ -1,0 +1,72 @@
+<VirtualHost 192.168.102.126:80>
+    <Directory /var/projeto/dominios/admgeral>
+	AllowOverride all
+        Require all Granted
+        Options Indexes
+    </Directory>
+    ServerAdmin root@admgeral
+    DocumentRoot "/var/projeto/dominios/admgeral/www/"
+    ServerName www.admgeral
+    ErrorLog "/var/projeto/dominios/admgeral/log/error-vp.log"
+    CustomLog "/var/projeto/dominios/admgeral/log/access-vp.log" common
+</VirtualHost>
+<VirtualHost 192.168.102.126:80>
+    <Directory /var/projeto/dominios/amojulianaainda>
+	AllowOverride all
+        Require all Granted
+        Options Indexes
+    </Directory>
+    ServerAdmin root@amojulianaainda
+    DocumentRoot "/var/projeto/dominios/amojulianaainda/www/"
+    ServerName www.amojulianaainda
+    ErrorLog "/var/projeto/dominios/amojulianaainda/log/error-vp.log"
+    CustomLog "/var/projeto/dominios/amojulianaainda/log/access-vp.log" common
+</VirtualHost>
+<VirtualHost 192.168.102.126:80>
+    <Directory /var/projeto/dominios/dore.dore>
+	AllowOverride all
+        Require all Granted
+        Options Indexes
+    </Directory>
+    ServerAdmin root@dore.dore
+    DocumentRoot "/var/projeto/dominios/dore.dore/www/"
+    ServerName www.dore.dore
+    ErrorLog "/var/projeto/dominios/dore.dore/log/error-vp.log"
+    CustomLog "/var/projeto/dominios/dore.dore/log/access-vp.log" common
+</VirtualHost>
+<VirtualHost 192.168.102.126:80>
+    <Directory /var/projeto/dominios/nemo.nemo>
+	AllowOverride all
+        Require all Granted
+        Options Indexes
+    </Directory>
+    ServerAdmin root@nemo.nemo
+    DocumentRoot "/var/projeto/dominios/nemo.nemo/www/"
+    ServerName www.nemo.nemo
+    ErrorLog "/var/projeto/dominios/nemo.nemo/log/error-vp.log"
+    CustomLog "/var/projeto/dominios/nemo.nemo/log/access-vp.log" common
+</VirtualHost>
+<VirtualHost 192.168.102.126:80>
+    <Directory /var/projeto/dominios/teobaldo.teobaldo>
+	AllowOverride all
+        Require all Granted
+        Options Indexes
+    </Directory>
+    ServerAdmin root@teobaldo.teobaldo
+    DocumentRoot "/var/projeto/dominios/teobaldo.teobaldo/www/"
+    ServerName www.teobaldo.teobaldo
+    ErrorLog "/var/projeto/dominios/teobaldo.teobaldo/log/error-vp.log"
+    CustomLog "/var/projeto/dominios/teobaldo.teobaldo/log/access-vp.log" common
+</VirtualHost>
+<VirtualHost 192.168.102.126:80>
+    <Directory /var/projeto/dominios/teste.teste>
+	AllowOverride all
+        Require all Granted
+        Options Indexes
+    </Directory>
+    ServerAdmin root@teste.teste
+    DocumentRoot "/var/projeto/dominios/teste.teste/www/"
+    ServerName www.teste.teste
+    ErrorLog "/var/projeto/dominios/teste.teste/log/error-vp.log"
+    CustomLog "/var/projeto/dominios/teste.teste/log/access-vp.log" common
+</VirtualHost>

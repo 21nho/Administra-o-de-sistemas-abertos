@@ -1,0 +1,30 @@
+zone "admgeral" IN {
+        type master;
+        file "/var/projeto/dns/zonas.conf";
+        allow-query { any; };
+};
+zone "amojulianaainda" IN {
+        type master;
+        file "/var/projeto/dns/zonas.conf";
+        allow-query { any; };
+};
+zone "dore.dore" IN {
+        type master;
+        file "/var/projeto/dns/zonas.conf";
+        allow-query { any; };
+};
+zone "nemo.nemo" IN {
+        type master;
+        file "/var/projeto/dns/zonas.conf";
+        allow-query { any; };
+};
+zone "teobaldo.teobaldo" IN {
+        type master;
+        file "/var/projeto/dns/zonas.conf";
+        allow-query { any; };
+};
+zone "teste.teste" IN {
+        type master;
+        file "/var/projeto/dns/zonas.conf";
+        allow-query { any; };
+};
